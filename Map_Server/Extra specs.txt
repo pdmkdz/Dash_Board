@@ -1,0 +1,2 @@
+conda install -c conda-forge pygeos
+conda install -c conda-forge/label/cf202003 pygeos

@@ -1,0 +1,21 @@
+# Edit this file as appropriate to compose and run
+# your application.
+version: '3.0'
+
+services:
+ ui:
+  # build: <specify the directory of the Dockerfile>
+  ports:
+  - "8080:80" # specify port mapping
+
+ api:
+  # build: <specify the directory of the Dockerfile>
+  ports:
+  - "3000:3000" #specify ports mapping
+  links:
+  - database # link this service to the database service
+
+ database:
+  image:
+  ports:
+  - "27017:27017"
