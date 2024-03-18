@@ -1,6 +1,7 @@
 # DASHBOARD
 
 This is an example of a dashboard created to analyze the data of oil and gas wells in the Permain Basin.
+To play the dashboard go into the Dashboard2dim folder and run the .bat file.
 
 ## Data Set
 
