@@ -1,5 +1,5 @@
 ::set path where everything is
-cd /d E:\Extra\API\se_exercise\Dashboard_2Dim
+cd /d E:\Extra\API\dash_board\Dashboard_2Dim
 ::Open both ports running dashboards
 
 ::explorer "http://127.0.0.1:1010/"
